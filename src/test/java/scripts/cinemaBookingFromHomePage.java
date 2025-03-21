@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProfilePage;
@@ -13,22 +15,19 @@ import pages.PurchasePage;
 
 import java.time.Duration;
 
-public class cinemaBookingFromHomePage {
+public class cinemaBookingFromHomePage extends baseTest {
 
-    static WebDriver driver;
+    @Test
+    public void verifyBookingFromHomepage(){
 
-    public static void main(String[] args) throws InterruptedException {
 
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        driver.get("https://demo1.cybersoft.edu.vn/");
-
-        Actions actions = new Actions(driver);
+        driver.findElement(By.xpath("//a[@href='/sign-in']")).click();
 
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login("lvc", "123456");
+
+        loginPage.inputUser("lvc");
+        loginPage.inputPassword("123456");
+        loginPage.loginButton();
 
         HomePage homePage = new HomePage(driver);
         homePage.selectSlotFromPanel("Raya","07-03-2022");
@@ -39,6 +38,9 @@ public class cinemaBookingFromHomePage {
         ProfilePage profilePage = new ProfilePage(driver);
         profilePage.verifyBookingPrice("120000");
     }
-
+    @AfterMethod
+    public void quit(){
+        driver.quit();
+    }
 
 }

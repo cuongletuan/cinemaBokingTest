@@ -1,11 +1,6 @@
 package scripts;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
@@ -13,12 +8,10 @@ import pages.LoginPage;
 import pages.ProfilePage;
 import pages.PurchasePage;
 
-import java.time.Duration;
-
-public class cinemaBookingVerticalTabFromHome extends baseTest {
+public class cinemaBookingFromSearchBar extends baseTest{
 
     @Test
-    public void verifyBookingVerticalTabFromHome() {
+    public void verifyBookingFromSearchBar(){
 
         driver.findElement(By.xpath("//a[@href='/sign-in']")).click();
 
@@ -28,13 +21,8 @@ public class cinemaBookingVerticalTabFromHome extends baseTest {
         loginPage.inputPassword("123456");
         loginPage.loginButton();
 
-        Actions actions = new Actions(driver);
-
-        WebElement scrollTab = driver.findElement(By.xpath("//div[@id='cumRap']"));
-        actions.scrollToElement(scrollTab).perform();
-
         HomePage homePage = new HomePage(driver);
-        homePage.selectSlotVerticalTab("cinestar", "CNS - Quốc Thanh","Bloodshot 1", "10-12-2021");
+        homePage.selectSlotTab();
 
         PurchasePage purchasePage = new PurchasePage(driver);
         purchasePage.bookingManySlot(new String[]{"18", "19"});

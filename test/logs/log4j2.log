@@ -1,0 +1,41 @@
+[INFO ] 2025-03-17 16:58:17.758 [main] testBookingFromHomePage - Setting up WebDriver
+[INFO ] 2025-03-18 08:44:57.285 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-18 08:45:04.704 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-18 08:45:05.725 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-18 08:45:10.729 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-18 15:35:25.881 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-18 15:35:32.729 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-18 15:35:33.512 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-18 15:35:33.512 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-18 15:36:27.108 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-18 15:36:32.120 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-18 15:36:33.154 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-18 15:36:33.155 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-18 17:17:29.296 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-18 17:17:38.310 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-18 17:17:39.568 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-18 17:17:44.571 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-19 14:59:32.732 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-19 14:59:40.424 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-19 14:59:41.195 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-19 14:59:46.202 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-21 10:37:46.415 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-21 10:38:02.734 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-21 10:38:05.166 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-21 10:38:10.174 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-21 10:41:12.771 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-21 10:41:19.606 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-21 10:41:20.777 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-21 10:41:25.782 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-21 10:43:20.028 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-21 10:43:25.804 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-21 10:43:26.697 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-21 10:43:31.702 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-21 11:05:21.561 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-21 11:05:27.990 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-21 11:05:28.853 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-21 11:05:28.854 [main] cinemaBookingTest - Scroll Home Tool div
+[INFO ] 2025-03-21 11:09:25.736 [main] cinemaBookingTest - Setting up WebDriver
+[INFO ] 2025-03-21 11:09:33.630 [main] cinemaBookingTest - Input logging
+[INFO ] 2025-03-21 11:09:34.376 [main] cinemaBookingTest - End Login account
+[INFO ] 2025-03-21 11:09:34.376 [main] cinemaBookingTest - Scroll Home Tool div
